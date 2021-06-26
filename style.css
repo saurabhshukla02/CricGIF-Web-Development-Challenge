@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+.video-container{
+    display: flex;
+    flex-direction: row;
+    /* border: 5px solid red; */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 750px;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    /* border: 5px solid red; */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 750px;
+}
+
+image{
+    filter: grayscale(1);
+    transition: all .2s ease-in-out;
+    box-sizing: border-box;
+    width: 650px;
+}
+
+image:hover{
+    filter: grayscale(0);
+    transform: scale(1.25);
+}
+
+video{
+    filter: grayscale(1);
+    transition: all .2s ease-in-out;
+    box-sizing: border-box;
+    width: 750px;
+}
+
+video:hover{
+    filter: grayscale(0);
+    transform: scale(1.25);
+}
